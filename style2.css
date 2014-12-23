@@ -53,10 +53,6 @@ h5{
 
 }
 
-.logiciels {
-    text-align: center;
-}
-
 
 header{
     background-color:white;
@@ -171,16 +167,16 @@ li{
 
 .realisations {
     background-color: white;
-    border-radius:20px;
-    margin-left: 200px;
-    margin-right: 200px;
-    padding-bottom: 20px;
-    padding-right: 20px;
-    padding-left: 5px;
+    border-radius:30px;
+    margin-left: 310px;
+    margin-right: 290px;
+    padding-bottom: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
     padding-top:  1px;
     text-align: center;
     font-family: "Aaargh";
-    font-size: 14px;
+    font-size: 16px;
 
 }
 
@@ -188,4 +184,32 @@ li{
     text-align: left;
     margin-left: 100px;
     
+}
+ h5 {
+ font-family: "Champagne & Limousines", bold italic;
+font-size: 24px;
+ text-align: center;
+ }
+
+}
+
+.logiciels {
+    text-align: center;
+}
+
+.dessins {
+    background-color: inherit;
+    padding:340px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 15px;
+    padding-top: 1px;   
+}
+
+.more {
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    
+
 }
