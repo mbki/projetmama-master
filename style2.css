@@ -22,7 +22,7 @@ h3 {border-radius:40px;
     text-align: center;
     font-family: "Champagne & Limousines", bold italic;
     font-size: 30px;
-    color: white;
+    color: grey;
     
 
 }
@@ -53,6 +53,7 @@ h5{
 }
 
 
+
 header{
     background-color:white;
     border-radius:40px;
@@ -63,24 +64,8 @@ header{
     text-align: center;
     
 }
-
-main{
-     margin-left: 300px;
-     margin-right: 300px;
-}
-
-main h1 {
-    text-align:center;
-    color:grey;
-}
-
-main h2 {
-    text-align:center;
-    color:grey; 
-}
-
 header ul {
-    padding:20px;
+    padding:2px;
 }
 
 header a{
@@ -106,10 +91,21 @@ header li{
     text-align: center;
 }
 
-
-footer li{
-    border-radius:50px;   
+main{
+     margin-left: 300px;
+     margin-right: 300px;
 }
+
+main h1 {
+    text-align:center;
+    color:grey;
+}
+
+main h2 {
+    text-align:center;
+    color:grey; 
+}
+
 
 
 footer h1{
@@ -119,9 +115,19 @@ footer h1{
 }
 
 
-.contact {
-    text-align: center;
-   }
+
+.bloc{
+    background-color: white;
+    border-radius:20px;
+    padding:20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: "Aaargh";
+    font-size: 13px;
+    color: black;
+    padding-bottom: 30px;
+    padding-top: 1px;
+}
 
 
 p{
@@ -138,40 +144,6 @@ li{
     list-style: none;
 }
 
-.bloc{
-    background-color: white;
-    border-radius:20px;
-    padding:20px;
-    margin-left: 200px;
-    margin-right: 200px;
-    font-family: "Aaargh";
-    font-size: 13px;
-    color: black;
-    padding-bottom: 30px;
-    padding-top: 1px;
-}
-
-
-
-.realisations {
-    background-color: white;
-    border-radius:30px;
-    margin-left: 310px;
-    margin-right: 290px;
-    padding-bottom: 30px;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-top:  1px;
-    text-align: center;
-    font-family: "Aaargh";
-    font-size: 14px;
-
-}
-
-.diplome {
-    text-align: left;
-    margin-left: 100px;   
-}
 
  h5 {
  font-family: "Champagne & Limousines", bold italic;
@@ -180,6 +152,17 @@ li{
   padding-bottom: 15px;
   padding-top: 10px;
  }
+
+
+.diplome {
+    text-align: left;
+    margin-left: 100px;   
+}
+
+.contact {
+    text-align: center;
+   }
+
 
 
 .logiciels {

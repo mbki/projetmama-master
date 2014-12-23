@@ -8,17 +8,16 @@ body{
 
 header ul {
     padding:20px;
-    
 }
+
 
 header a{
     color:white;
     text-decoration: none;
     font-family: "Champagne & Limousines";
-    font-size: 25px;
-    
-    
+    font-size: 25px; 
 }
+
 
 header h2{
     border-radius:50px;
@@ -30,6 +29,7 @@ header a:hover{
     color:inherit;
     
 }
+
 
 header li{
     display:inline-block;
@@ -51,43 +51,6 @@ header li{
     padding-top: 1px;
 }
 
-h3 {border-radius:40px;
-    margin-left: 40px;
-    margin-right:75px;
-    text-align: center;
-    font-family: "Champagne & Limousines", bold italic;
-    font-size: 35px;
-    color: white;
-   
-
-}
-.logiciels {
-    text-align: center;
-    margin-right: 5px;
-}
-
-li{
-    text-align: center;
-    list-style: none;
-    font-family: "Aaargh";
-    color: white;
-    font-size: 14px;
-}
-
-.more {
-    text-align: center;
-    margin-top: 30px;
-    padding-bottom: 60px;
-}
-
-.pp {
-    text-align: center;
-}
-
-.pp img {
-    border-radius:50%;
-}
-
 
 h1{ 
     border-radius:40px;
@@ -99,22 +62,79 @@ h1{
     color: white;
 }
 
+h2 { color: white; 
+    text-align: center;
+    font-family: "Aaargh";
+    font-size: 16px;
+    margin-left: 10px;
+    background-color:inherit;
+    margin-bottom: 60px;    
+}
+
+h3 { 
+    border-radius:40px;
+    margin-left: 40px;
+    margin-right:75px;
+    text-align: center;
+    font-family: "Champagne & Limousines", bold italic;
+    font-size: 35px;
+    color: white;
+}
+
 h4 {
     color: white; 
     text-align: center;
     font-family: "caviar dreams";
     font-size: 60px;
-    margin-left: 60px;
     background-color:inherit;
     margin-bottom: 60px;    
 }
 
+
+li{
+    text-align: center;
+    list-style: none;
+    font-family: "Aaargh";
+    color: white;
+    font-size: 14px;
+}
+
+
+.more {
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 60px;
+}
+
+
+.pp {
+    text-align: center;
+}
+
+
+.pp img {
+    border-radius:50%;
+}
+
+.logiciels {
+    text-align: center;
+    margin-right: 5px;
+}
+
+
 .contact {
    margin-left: 700px;
     text-align: center;
+    margin-top: 150px;
    }
 
+.liens {
+    text-align: center;
+
+}
+
+
 .liens img {
-    border-radius:50px;  
-      
+    border-radius:50px;
+    margin-bottom: 100px;      
 }
