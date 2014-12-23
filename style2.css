@@ -10,9 +10,10 @@ h1{
     border-radius:40px;
     margin-left: 40px;
     margin-right:40px;
+    padding-bottom: 20px;
     text-align: center;
-    
-    font-size: 35px;
+    font-size: 50px;
+    font-family: "Champagne & Limousines";
     
     
 }
@@ -29,12 +30,14 @@ h3 {border-radius:40px;
 }
 
 h4 {
-    color: grey; 
+    color: black; 
     text-align: center;
     font-family: "caviar dreams";
-    font-size: 44px;
+    font-size: 60px;
     margin-left: 60px;
     background-color:inherit;
+    margin-bottom: 60px;
+    
     
 }
 
@@ -49,8 +52,6 @@ h5{
     margin-right: 260px;
     padding-top: 5px;
     padding-bottom: 5px;
-    
-
 }
 
 
@@ -68,8 +69,6 @@ header{
 main{
      margin-left: 300px;
     margin-right: 300px;
-    
-
 }
 
 main h1 {
@@ -89,6 +88,8 @@ header ul {
 header a{
     color:grey;
     text-decoration: none;
+    font-family: "Champagne & Limousines";
+    font-size: 26px;
 }
 
 header h2{
@@ -125,23 +126,24 @@ footer h1{
     border-radius:50%;
 }
 
+.contact {
+    text-align: center;
+   }
+
+
+
 p{
     color: white; 
     text-align: center;
     padding: 30px;
     border-radius: 9px;
     font-family: "Eight One";
-    font-size: 30px;
-    
-    
+    font-size: 30px;  
 }
 
 li{
     text-align: center;
     list-style: none;
-    
-    
-
 }
 
 .bloc{
@@ -157,13 +159,7 @@ li{
     padding-top: 1px;
 }
 
-.tel{
-    background-color: white;
-    border-radius:20px;
-    margin-left: 500px;
-    margin-right: 500px;
-    padding:15px;
-} 
+
 
 .realisations {
     background-color: white;
@@ -182,19 +178,31 @@ li{
 
 .diplome {
     text-align: left;
-    margin-left: 100px;
-    
+    margin-left: 100px;   
 }
+
  h5 {
  font-family: "Champagne & Limousines", bold italic;
-font-size: 24px;
+ font-size: 24px;
  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 10px;
  }
 
-}
+
 
 .logiciels {
     text-align: center;
+    
+}
+
+.pp img {
+    text-align: center;
+    border border-radius: 30%;
+    margin-left: 40px;
+    padding-top: 0px;
+    margin-top: 0px;
+    
 }
 
 .dessins {
@@ -210,6 +218,11 @@ font-size: 24px;
     text-align: center;
     margin-bottom: 30px;
     border-radius: 20px;
-    
+}
 
+.liens img {
+    border-radius:50px;  
+    margin-right: 50px;
+    margin-left: 50px;
+    
 }
