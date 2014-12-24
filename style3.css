@@ -19,16 +19,17 @@ header a{
 }
 
 
-header h2{
-    border-radius:50px;
-    
-}
-
 
 header a:hover{
     color:inherit;
     
 }
+
+header h2{
+    border-radius:50px;
+    
+}
+
 
 
 header li{
